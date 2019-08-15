@@ -7,7 +7,7 @@ class Magic
 
   def menu 
     puts "---Welcome to the Magic 8 Ball!---".colorize(:purple)
-    puts "1) Type 1 to ask a question and get an answer."
+    puts "1) Type 1 to ask a question and get your future."
     puts "2) Type 2 to end the program"
     print ">"
     choice = gets.to_i
